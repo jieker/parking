@@ -1,0 +1,37 @@
+
+.finAffairs,#manageSet,#dataAndsum{
+    background-color:#eee;
+    height: 100%;
+    display: flex;
+    .fin_content{
+         width:100%;
+        // flex:1;
+        overflow-x: scroll;
+        .content{
+            min-width: 1080px;
+            max-width: 100%;
+        }
+    }
+    .FA-warpper {
+        padding: 20px;
+        .FA-toolbar{
+            .el-form-item{
+                margin-bottom:10px;
+            }
+        }
+        .el-button{
+            padding: 11px 18px;
+        }
+        .define-btn{
+            padding: 11px 8px;
+        }
+
+    }
+  
+
+    //右浮动
+    .Fright{
+        float: right;
+    }
+}
+

@@ -1,0 +1,150 @@
+$color-info: #909399;       
+$color-success: #67C23A;
+$color-warning: #E6A23C;
+$color-danger: #F56C6C;
+
+$color-orange: #FC813B;     //主题色
+$color-gray: #eeeeee;       //用于灰色背景
+$color-black: #343434;       //用于黑色背景
+$color-gray2: #ebeef5;      //用于边框
+$color-gray3:#a5a7aa;      //用于失效文本
+$color-blue: #20a0ff;       //用于链接,文本按钮
+
+
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+   float:right;
+}
+//清除浮动,在父级元素增加此类:clearfix
+.clearfix:after{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;  
+}
+.clearfix {
+    /* 触发 hasLayout */ 
+    zoom: 1; 
+}
+/* 文本方向 */
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;   
+}
+.text-right{
+    text-align: right;
+}
+.text-justify{
+    text-align: justify;
+}
+/* 文本颜色 */
+.text-info{
+    color: $color-info;
+}
+.text-success{
+    color: $color-success;
+}
+.text-warning{
+    color: $color-warning;
+}
+.text-danger{
+    color: $color-danger;
+}
+.text-blue{
+    color: $color-blue;
+}
+.text-orange{
+    color: $color-orange;
+}
+.text-white{
+    color: #fff;
+}
+/* 文本不可选取 */
+.un-select{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+
+}
+/* 背景颜色 */
+.bg-info{
+    background-color: $color-gray;
+}
+.bg-success{
+    // background-color: #eaedec;
+    background-color: $color-success;
+}
+.bg-warning{
+    background-color: $color-warning;
+}
+.bg-danger{
+    // background-color: #f3eded;
+    background-color: $color-danger;
+}
+/* 响应式图片 */
+.img-responsive {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+  }
+.width-100{
+    width:100px;
+}  
+.width-120{
+    width:120px;
+}
+.width-150{
+    width:150px;
+}
+.width-160{
+    width:160px;
+}
+.width-180{
+    width:180px;
+}
+.width-200{
+    width: 200px;
+}
+.width-230{
+    width: 230px;
+}
+.margin-0{
+    margin: 0px;
+}
+.padding-0{
+    padding: 0px;
+}
+.font-size-16{
+    font-size: 16px;
+}
+.font-weight-b{
+    font-weight: bold;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+// 分页
+.elPag{
+    width: 100%;
+    text-align: center;
+    .el-pagination{
+        display: inline-block;
+    }
+    .PagGo{
+        padding: 5px !important;
+        position: relative;
+        top: 6px;
+    }
+}
+
+
+
